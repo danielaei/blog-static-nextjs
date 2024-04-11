@@ -7,14 +7,36 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        purple: {
+          DEFAULT: "#6941C6",
+          light: "#F9F5FF",
+        },
+        blue: {
+          DEFAULT: "#3538CD",
+          light: "#EEF4FF",
+        },
+        pink: {
+          DEFAULT: "#C11574",
+          light: "#FDF2FA",
+        },
+        dark: {
+          DEFAULT: "#212121",
+        },
+        slate: {
+          DEFAULT: "#667085",
+        },
+      },
+      boxShadow: {
+        v1: "rgba(7,65,210,0.1) 0px 9px 30px",
       },
     },
   },
   plugins: [],
+  safelist: ["tag-pink", "tag-purple", "tag-blue"],
 };
 export default config;
