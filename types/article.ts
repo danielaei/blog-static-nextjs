@@ -1,5 +1,9 @@
 import { Tags } from "./tag";
-
+// Options
+interface Options {
+  ui: "V1" | "V2";
+}
+// Options
 // Article
 interface Article {
   image: {
@@ -19,5 +23,6 @@ type ArticleModels = {
 };
 // End Article
 export type ArticleProps<T extends keyof ArticleModels> = {
-  data: T extends "single" ? Article : Articles;
+  data: ArticleModels[T];
+  options?: Options;
 };

@@ -2,16 +2,16 @@ import { ArticleProps } from "@/types";
 import Image from "next/image";
 import React from "react";
 
-export const Article = ({ data }: ArticleProps<"single">) => {
+export const Article2 = ({ data }: ArticleProps<"single">) => {
   return (
     <article className="h-[inherit]">
-      <figure className="articleV1WrapperOne">
+      <figure className="articleV2WrapperOne">
         <Image
           src={`/${data.image.src}`}
-          width={1200}
-          height={1200}
+          width={320}
+          height={200}
           alt={data.image.alt}
-          className="articleV1Image"
+          className="articleV2Image"
         />
         <div className="articleWrapperTwoDefault">
           <span className="writer">
