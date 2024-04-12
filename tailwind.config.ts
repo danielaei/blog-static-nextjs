@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode:"selector",
   theme: {
     container: {
       center: true,
@@ -35,6 +36,7 @@ const config: Config = {
         },
         dark: {
           DEFAULT: "#212121",
+          light:"#090D1F"
         },
         slate: {
           DEFAULT: "#667085",

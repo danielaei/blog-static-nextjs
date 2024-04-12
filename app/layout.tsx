@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`min-h-dvh container space-y-5 ${inter.className}`}>
+    <html className="dark" lang="en">
+      <body className={`min-h-dvh container space-y-5 dark:bg-dark-light dark:text-white ${inter.className}`}>
         <Navbar />
         <main className="space-y-5">{children}</main>
         <Footer />
