@@ -5,7 +5,7 @@ import { ArticleProps } from "@/types";
 
 const ArticlesV1 = ({ data }: ArticleProps<"list">) => {
   return (
-    <ul className="grid grid-cols-3 gap-5">
+    <ul className="grid laptop:grid-cols-3 mobileS:grid-cols-1 gap-5">
       {data.map((item, index) => (
         <li key={index}>
           <Article data={item} />
@@ -16,17 +16,17 @@ const ArticlesV1 = ({ data }: ArticleProps<"list">) => {
 };
 const ArticlesV2 = ({ data }: ArticleProps<"list">) => {
   return (
-    <ul className="grid grid-cols-12 gap-8">
-      <li className="col-span-6 row-span-2 h-full">
+    <ul className="grid laptop:grid-cols-12 mobileS:grid-cols-1 gap-8">
+      <li className="laptop:col-span-6 mobileS:col-span-1 row-span-2 h-full">
         <Article data={data[0]} />
       </li>
-      <li className="col-start-7 col-end-13">
+      <li className="laptop:col-start-7 mobileS:col-span-1 laptop:col-end-13">
         <Article2 data={data[1]} />
       </li>
-      <li className="col-start-7 col-end-13">
+      <li className="laptop:col-start-7 mobileS:col-span-1 laptop:col-end-13">
         <Article2 data={data[2]} />
       </li>
-      <li className="col-span-12 row-start-3 row-end-4">
+      <li className="laptop:col-span-12 mobileS:col-span-1 row-start-3 row-end-4">
         <Article2 data={data[3]} />
       </li>
     </ul>

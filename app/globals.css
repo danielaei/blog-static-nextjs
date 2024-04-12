@@ -1,8 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  box-sizing: border-box;
+  position: relative;
+  min-width: 0;
+}
 @layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-balance;
+  }
+  p {
+    @apply text-pretty;
+  }
   h1 {
     @apply font-bold text-4xl;
   }
@@ -33,30 +46,30 @@
     @apply text-xs font-semibold text-pink;
   }
   .articleWrapperOneDefault {
-    @apply flex gap-2 cursor-pointer rounded-md hover:shadow-v1 h-[inherit]
+    @apply flex gap-2 cursor-pointer rounded-md hover:shadow-v1 h-[inherit];
   }
   .articleV1WrapperOne {
     @apply articleWrapperOneDefault flex-col;
   }
   .articleV2WrapperOne {
-    @apply articleWrapperOneDefault flex-row;
+    @apply articleWrapperOneDefault laptop:flex-row mobileS:flex-col;
   }
   .articleWrapperTwoDefault {
     @apply flex flex-col justify-between gap-2 p-2 h-[inherit];
   }
   .articleV1WrapperTwo {
-    @apply articleWrapperTwoDefault
+    @apply articleWrapperTwoDefault;
   }
   .articleV2WrapperTwo {
-    @apply articleWrapperTwoDefault
+    @apply articleWrapperTwoDefault;
   }
   .articleImage {
-    @apply w-full
+    @apply w-full;
   }
   .articleV1Image {
-    @apply articleImage rounded-t-md
+    @apply articleImage rounded-t-md;
   }
   .articleV2Image {
-    @apply articleImage rounded-l-md
+    @apply articleImage rounded-l-md;
   }
 }

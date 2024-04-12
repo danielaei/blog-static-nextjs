@@ -11,6 +11,15 @@ const config: Config = {
       center: true,
     },
     extend: {
+      screens: {
+        mobileS: "320px",
+        mobileM: "375px",
+        mobileL: "425px",
+        tablet: "768px",
+        laptop: "1024px",
+        laptopL: "1440px",
+        "4k": "2560px",
+      },
       colors: {
         purple: {
           DEFAULT: "#6941C6",

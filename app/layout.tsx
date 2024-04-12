@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`container space-y-5 ${inter.className}`}>
+      <body className={`min-h-dvh container space-y-5 ${inter.className}`}>
         <Navbar />
         <main className="space-y-5">{children}</main>
         <Footer />
