@@ -1,7 +1,7 @@
 import { Tags } from "./tag";
 // Options
 interface Options {
-  ui: "V1" | "V2";
+  ui: "V1" | "V2" | "V3";
 }
 // Options
 // Article

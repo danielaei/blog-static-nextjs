@@ -32,11 +32,22 @@ const ArticlesV2 = ({ data }: ArticleProps<"list">) => {
     </ul>
   );
 };
-
+const ArticlesV3 = ({ data }: ArticleProps<"list">) => {
+  return (
+    <ul className="grid grid-cols-1 gap-5">
+      {data.map((item, index) => (
+        <li key={index}>
+          <Article data={item} />
+        </li>
+      ))}
+    </ul>
+  );
+};
 export const Articles = ({ data, options }: ArticleProps<"list">) => {
   const Articles = {
     V1: ArticlesV1,
     V2: ArticlesV2,
+    V3: ArticlesV3,
   }[options?.ui || "V1"]({ data });
   return Articles;
 };
