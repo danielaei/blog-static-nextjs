@@ -1,7 +1,6 @@
 import { Articles } from "@/components/article";
 import { Newsletter } from "@/components/newsletter";
-import { HeaderSection } from "@/components/shared";
-import { TitleSection } from "@/components/shared/titleSection";
+import { HeaderSection, TitleSection } from "@/components/shared";
 import { articleMock1, articleMock2 } from "@/constant";
 
 export default function Home() {

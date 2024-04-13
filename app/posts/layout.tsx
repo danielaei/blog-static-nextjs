@@ -1,5 +1,5 @@
 import { Newsletter } from "@/components/newsletter";
-import { Sidebar } from "@/components/shared/sidebar";
+import { Sidebar } from "@/components/shared";
 
 export default function PostsLayout({
   children,
