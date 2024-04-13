@@ -50,7 +50,7 @@
     @apply tag text-blue bg-blue-light;
   }
   .writer {
-    @apply text-xs font-semibold text-pink;
+    @apply text-xs font-semibold text-pink flex gap-2;
   }
   .articleWrapperOneDefault {
     @apply flex gap-2 cursor-pointer rounded-md hover:shadow-v1 h-[inherit];

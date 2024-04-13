@@ -1,4 +1,5 @@
-import { Tags } from "./tag";
+import { TagProps } from "./tag";
+
 // Options
 interface Options {
   ui: "V1" | "V2" | "V3";
@@ -12,7 +13,7 @@ interface Article {
   };
   title: string;
   description: string;
-  tags: Tags;
+  tags: TagProps<"list">['data'];
   writer: string;
   date: Date;
 }

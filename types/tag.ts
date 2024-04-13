@@ -10,8 +10,10 @@ interface Tag {
   color: ColorsKeys;
 }
 type Tags = Array<Tag>;
-// End Tag
-
-export type {
-    Tags
-}
+type TagModels = {
+  single: Tag;
+  list: Tags;
+};
+export type TagProps<T extends keyof TagModels> = {
+  data: TagModels[T];
+};

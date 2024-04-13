@@ -1,7 +1,7 @@
 import React from "react";
 import { articleMock3 } from "@/constant";
 import { Articles } from "@/components/article";
-import { HeaderSection } from "../headerSection";
+import { HeaderSection } from "../other/headerSection";
 
 export const Sidebar = () => {
   return (

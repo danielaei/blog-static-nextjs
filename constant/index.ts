@@ -14,22 +14,13 @@ export const articleMock1: ArticleProps<"list"> = {
           color: "purple",
           name: "Tech",
         },
-      ],
-      writer: "Daniel Agha Babaei",
-      date: new Date(),
-    },
-    {
-      title: "UX review presentations",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
-      image: {
-        src: "1.png",
-        alt: "UX review presentations",
-      },
-      tags: [
         {
           color: "blue",
-          name: "Tech",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -45,8 +36,16 @@ export const articleMock1: ArticleProps<"list"> = {
       },
       tags: [
         {
-          color: "pink",
+          color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -62,8 +61,16 @@ export const articleMock1: ArticleProps<"list"> = {
       },
       tags: [
         {
-          color: "pink",
+          color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -79,8 +86,16 @@ export const articleMock1: ArticleProps<"list"> = {
       },
       tags: [
         {
-          color: "pink",
+          color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -96,8 +111,41 @@ export const articleMock1: ArticleProps<"list"> = {
       },
       tags: [
         {
-          color: "pink",
+          color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
+        },
+      ],
+      writer: "Daniel Agha Babaei",
+      date: new Date(),
+    },
+    {
+      title: "UX review presentations",
+      description:
+        "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      image: {
+        src: "1.png",
+        alt: "UX review presentations",
+      },
+      tags: [
+        {
+          color: "purple",
+          name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -122,6 +170,14 @@ export const articleMock2: ArticleProps<"list"> = {
         {
           color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",
@@ -197,6 +253,14 @@ export const articleMock3: ArticleProps<"list"> = {
         {
           color: "purple",
           name: "Tech",
+        },
+        {
+          color: "blue",
+          name: "Sport",
+        },
+        {
+          color: "pink",
+          name: "Game",
         },
       ],
       writer: "Daniel Agha Babaei",

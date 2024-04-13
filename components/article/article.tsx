@@ -1,6 +1,7 @@
 import { ArticleProps } from "@/types";
 import Image from "next/image";
 import React from "react";
+import { Tags } from "@/components/tag";
 
 export const Article = ({ data }: ArticleProps<"single">) => {
   return (
@@ -14,19 +15,16 @@ export const Article = ({ data }: ArticleProps<"single">) => {
           className="articleV1Image"
         />
         <div className="articleWrapperTwoDefault">
-          <span className="writer">
-            {data.writer} • {data.date.getDay()}/{data.date.getMonth()}/
-            {data.date.getFullYear()}
-          </span>
+          <p className="writer">
+            <span data-cy="writer">
+              {data.writer}
+            </span>
+            •
+            <span data-cy="date">{data.date.getDay()}/{data.date.getMonth()}/{data.date.getFullYear()}</span>
+          </p>
           <h2>{data.title}</h2>
           <figcaption>{data.description}</figcaption>
-          <ul>
-            {data.tags.map((item, index) => (
-              <li key={index} className={`tag-${item.color}`}>
-                {item.name}
-              </li>
-            ))}
-          </ul>
+          <Tags data={data.tags} />
         </div>
       </figure>
     </article>
