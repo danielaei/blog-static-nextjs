@@ -25,8 +25,15 @@
   h3 {
     @apply font-bold text-2xl;
   }
+  figcaption,
+  p {
+    @apply text-slate dark:text-gray;
+  }
   figcaption {
-    @apply text-xs text-slate;
+    @apply text-xs;
+  }
+  button {
+    @apply rounded-lg border-2 border-purple text-white bg-purple hover:bg-white hover:text-purple hover:border-2 hover:border-purple;
   }
 }
 @layer components {

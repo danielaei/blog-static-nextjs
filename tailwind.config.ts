@@ -6,7 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode:"selector",
+  darkMode: "selector",
   theme: {
     container: {
       center: true,
@@ -36,10 +36,13 @@ const config: Config = {
         },
         dark: {
           DEFAULT: "#212121",
-          light:"#090D1F"
+          light: "#090D1F",
         },
         slate: {
           DEFAULT: "#667085",
+        },
+        gray: {
+          DEFAULT: "#C0C5D0",
         },
       },
       boxShadow: {
