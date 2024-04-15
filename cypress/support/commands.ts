@@ -33,6 +33,7 @@ declare global {
       articles(): Chainable<void>;
       tags(tags:JQuery<HTMLElement>): Chainable<void>;
       footer(): Chainable<void>;
+      aside(): Chainable<void>;
     }
   }
 }

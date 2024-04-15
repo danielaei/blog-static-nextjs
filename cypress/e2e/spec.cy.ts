@@ -9,4 +9,7 @@ describe("Article List", () => {
   it("should display links on footer", () => {
     cy.footer();
   });
+  it("should display a list of articles on the sidebar", () => {
+    cy.aside()
+  });
 });
