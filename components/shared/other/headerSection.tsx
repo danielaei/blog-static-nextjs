@@ -1,4 +1,4 @@
-import { HeaderSectionProps } from '@/types/shared'
+import { HeaderSectionProps } from '@/types'
 import React from 'react'
 
 export const HeaderSection = ({children,header}:HeaderSectionProps) => {

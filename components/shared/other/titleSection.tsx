@@ -1,4 +1,4 @@
-import { TitleSectionProps } from "@/types/shared";
+import { TitleSectionProps } from "@/types";
 import React from "react";
 
 export const TitleSection = ({ title }: TitleSectionProps) => {

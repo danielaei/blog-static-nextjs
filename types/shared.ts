@@ -5,3 +5,7 @@ export type HeaderSectionProps = {
 export type TitleSectionProps = {
   title: string;
 };
+export type FooterItemProps = {
+  name: string;
+  link: string;
+};

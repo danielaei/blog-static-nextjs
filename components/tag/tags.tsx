@@ -1,4 +1,4 @@
-import { TagProps } from "@/types/tag";
+import { TagProps } from "@/types";
 
 export const Tags = ({ data }: TagProps<"list">) => {
   return (

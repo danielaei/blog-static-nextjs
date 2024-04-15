@@ -1,4 +1,5 @@
 import { ArticleProps } from "@/types";
+import { FooterItemProps } from "@/types";
 export const articleMock1: ArticleProps<"list"> = {
   data: [
     {
@@ -322,12 +323,18 @@ export const articleMock3: ArticleProps<"list"> = {
     ui: "V3",
   },
 };
-export const footerMock = [
-  "© 2023",
-  "Twitter",
-  "LinkedIn",
-  "Email",
-  "RSS feed",
-  "Add to Feedly",
+export const footerMock: FooterItemProps[] = [
+  {
+    name: "Linkedin",
+    link: "www.linkedin.com/in/danielaghababaei",
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/danieloaei",
+  },
+  {
+    name: "Email",
+    link: "mailto:daniel.aghababaei@gmail.com",
+  },
 ];
 export const navbarMock = ["Blog", "Projects", "About", "Newsletter"];
