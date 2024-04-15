@@ -1,6 +1,12 @@
 describe("Article List", () => {
-  it("should display a list of articles", () => {
+  beforeEach(function () {
     cy.visit("http://localhost:3000");
-    cy.articles()
+    cy.fixture("footer.json").as("dataFooter");
+  });
+  it("should display a list of articles", () => {
+    cy.articles();
+  });
+  it("should display links on footer", () => {
+    cy.footer();
   });
 });

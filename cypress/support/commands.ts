@@ -32,6 +32,7 @@ declare global {
       article(article:JQuery<HTMLElement>): Chainable<void>;
       articles(): Chainable<void>;
       tags(tags:JQuery<HTMLElement>): Chainable<void>;
+      footer(): Chainable<void>;
     }
   }
 }

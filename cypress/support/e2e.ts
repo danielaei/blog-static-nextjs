@@ -17,5 +17,6 @@
 import './commands'
 import "./article"
 import "./tag"
+import "./footer"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
