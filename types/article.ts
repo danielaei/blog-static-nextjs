@@ -13,12 +13,13 @@ interface Article {
   };
   title: string;
   description: string;
-  tags: TagProps<"list">['data'];
+  tags: TagProps<"list">["data"];
   writer: string;
   date: Date;
+  content: string;
 }
 type Articles = Array<Article>;
-type ArticleModels = {
+export type ArticleModels = {
   single: Article;
   list: Articles;
 };

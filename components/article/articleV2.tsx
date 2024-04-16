@@ -5,7 +5,7 @@ import { Tags } from "../tag";
 
 export const Article2 = ({ data }: ArticleProps<"single">) => {
   return (
-    <article className="h-[inherit]">
+    <article className="h-full">
       <figure className="articleV2WrapperOne">
         <Image
           src={`/${data.image.src}`}
