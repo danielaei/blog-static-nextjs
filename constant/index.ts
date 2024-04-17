@@ -1148,6 +1148,10 @@ export const footerItems: FooterItemProps[] = [
     name: "Email",
     link: "mailto:daniel.aghababaei@gmail.com",
   },
+  {
+    name: "RSS Feeds",
+    link: "/rss",
+  },
 ];
 export const navbarItems = [
   {

@@ -11,6 +11,10 @@
     {
       "name": "Email",
       "link": "mailto:daniel.aghababaei@gmail.com"
+    },
+    {
+      "name": "RSS Feeds",
+      "link": "/rss"
     }
   ]
 }
