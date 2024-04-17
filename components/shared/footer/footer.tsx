@@ -1,4 +1,4 @@
-import { footerMock } from "@/constant";
+import { footerItems } from "@/constant";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer>
       <ul className="flex gap-5">
         <li>©{new Date().getFullYear()}</li>
-        {footerMock.map((v, i) => (
+        {footerItems.map((v, i) => (
           <li key={i}>
             <Link href={v.link}>{v.name}</Link>
           </li>

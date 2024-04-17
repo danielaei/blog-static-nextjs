@@ -1135,7 +1135,7 @@ The successful implementation of AI in education necessitates a collaborative ap
     ui: "V1",
   },
 };
-export const footerMock: FooterItemProps[] = [
+export const footerItems: FooterItemProps[] = [
   {
     name: "Linkedin",
     link: "www.linkedin.com/in/danielaghababaei",
@@ -1149,4 +1149,17 @@ export const footerMock: FooterItemProps[] = [
     link: "mailto:daniel.aghababaei@gmail.com",
   },
 ];
-export const navbarMock = ["Blog", "Projects", "About", "Newsletter"];
+export const navbarItems = [
+  {
+    name: "Blog",
+    link: "/",
+  },
+  {
+    name:"About",
+    link:"/about"
+  },
+  {
+    name:"Newsletter",
+    link:"/#Newsletter"
+  }
+];

@@ -1,14 +1,26 @@
-import { navbarMock } from "@/constant";
+import { navbarItems } from "@/constant";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Navbar = () => {
   return (
     <header>
-      <nav className="flex justify-between">
-        <div>Logo</div>
+      <nav className="flex items-center justify-between">
+        <Link href="/">
+          <Image
+            className="bg-white rounded-full"
+            src="/logo.png"
+            width={60}
+            height={60}
+            alt="Logo"
+          />
+        </Link>
         <ul className="flex gap-5">
-          {navbarMock.map((v, i) => (
-            <li key={i}>{v}</li>
+          {navbarItems.map((v, i) => (
+            <li key={i}>
+              <Link href={v.link}>{v.name}</Link>
+            </li>
           ))}
         </ul>
       </nav>
