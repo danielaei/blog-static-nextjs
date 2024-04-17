@@ -1,4 +1,4 @@
-import { articles } from "@/constant";
+import { articlesAll } from "@/constant";
 import { linkGenerator } from "@/utils/linkGenerator";
 import { Feed } from "feed";
 export async function GET() {
@@ -16,12 +16,12 @@ export async function GET() {
       link: "https://gemini.google.com",
     },
   });
-  articles.data.forEach((article) => {
+  articlesAll.data.forEach((article) => {
     article.tags.forEach((tag) => {
       feed.addCategory(tag.name);
     });
   });
-  articles.data.forEach((article, index) => {
+  articlesAll.data.forEach((article, index) => {
     feed.addItem({
       title: article.title,
       id: `${URL}${index + 1}`,

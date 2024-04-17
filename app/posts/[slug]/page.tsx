@@ -1,15 +1,16 @@
 import React from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { articles } from "@/constant";
+import { articlesAll } from "@/constant";
 import { linkGenerator } from "@/utils/linkGenerator";
 export default function Page(props: { params: { slug: string } }) {
-  const post = articles.data.find(
+  const post = articlesAll.data.find(
     (article) => linkGenerator(article.title) == props.params.slug
   );
+  console.log(props,post)
   return <MDXRemote source={post?.content as string} />;
 }
 export async function getStaticPaths() {
-  const paths = articles.data.map((post, i) => {
+  const paths = articlesAll.data.map((post, i) => {
     return {
       params: {
         slug: linkGenerator(post.title),
