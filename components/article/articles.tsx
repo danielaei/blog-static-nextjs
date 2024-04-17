@@ -27,17 +27,17 @@ const ArticlesV2 = ({ data }: ArticleProps<"list">) => {
         </Link>
       </li>
       <li className="laptop:col-start-7 mobileS:col-span-1 laptop:col-end-13">
-        <Link href={`/posts/${linkGenerator(data[0].title)}`}>
+        <Link href={`/posts/${linkGenerator(data[1].title)}`}>
           <Article2 data={data[1]} />
         </Link>
       </li>
       <li className="laptop:col-start-7 mobileS:col-span-1 laptop:col-end-13">
-        <Link href={`/posts/${linkGenerator(data[0].title)}`}>
+        <Link href={`/posts/${linkGenerator(data[2].title)}`}>
           <Article2 data={data[2]} />
         </Link>
       </li>
       <li className="laptop:col-span-12 mobileS:col-span-1 row-start-3 row-end-4">
-        <Link href={`/posts/${linkGenerator(data[0].title)}`}>
+        <Link href={`/posts/${linkGenerator(data[3].title)}`}>
           <Article2 data={data[3]} />
         </Link>
       </li>

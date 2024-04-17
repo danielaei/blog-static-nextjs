@@ -7,7 +7,7 @@ export const articles: ArticleProps<"list"> = {
       description:
         "How do you create compelling presentations that wow your colleagues and impress your managers?",
       image: {
-        src: "1.png",
+        src: "1.jpg",
         alt: "UX review presentations",
       },
       tags: [
@@ -71,7 +71,7 @@ By following these tips and injecting your own unique design expertise, you can 
       description:
         "Learn the basics of web development including HTML, CSS, and JavaScript.",
       image: {
-        src: "1.png",
+        src: "2.jpg",
         alt: "Web Development",
       },
       tags: [
@@ -127,7 +127,7 @@ Numerous online resources and tutorials cater to aspiring web developers. With d
       description:
         "Exploring the potential impact of artificial intelligence in the healthcare industry.",
       image: {
-        src: "1.png",
+        src: "3.jpg",
         alt: "AI in Healthcare",
       },
       tags: [
@@ -183,7 +183,7 @@ The successful integration of AI in healthcare relies on collaboration between A
       description:
         "Examining the growing trend of remote work and its implications for businesses and employees.",
       image: {
-        src: "1.png",
+        src: "4.jpg",
         alt: "Remote Work",
       },
       tags: [
@@ -240,7 +240,7 @@ The rise of remote work doesn't necessarily signal the end of traditional office
       description:
         "A beginner's guide to understanding blockchain technology and cryptocurrencies like Bitcoin.",
       image: {
-        src: "1.png",
+        src: "5.jpg",
         alt: "Blockchain and Cryptocurrency",
       },
       tags: [
@@ -298,7 +298,7 @@ While still in its early stages, blockchain technology holds immense potential b
       description:
         "Exploring the potential benefits and challenges of 5G technology in various industries.",
       image: {
-        src: "1.png",
+        src: "6.jpg",
         alt: "5G Technology",
       },
       tags: [
@@ -350,7 +350,7 @@ The successful rollout and widespread adoption of 5G depend on collaboration bet
       description:
         "How AI is revolutionizing the finance industry with automation and predictive analytics.",
       image: {
-        src: "1.png",
+        src: "7.jpg",
         alt: "AI in Finance",
       },
       tags: [
@@ -405,7 +405,7 @@ As AI continues to evolve, its applications in finance will only become more sop
       description:
         "Examining the potential impact of automation on the future of work and employment.",
       image: {
-        src: "1.png",
+        src: "8.jpg",
         alt: "Automation and Work",
       },
       tags: [
@@ -462,7 +462,7 @@ The pace of automation is undeniable, but its impact on jobs doesn't have to be 
       description:
         "Exploring how machine learning algorithms are used to analyze and interpret large datasets.",
       image: {
-        src: "1.png",
+        src: "9.jpg",
         alt: "Machine Learning and Data Science",
       },
       tags: [
@@ -521,7 +521,7 @@ Machine learning is constantly evolving, with advancements in areas like deep le
       description:
         "From firewalls to AI-powered threat detection, tracing the history and future of cybersecurity.",
       image: {
-        src: "1.png",
+        src: "10.jpg",
         alt: "Evolution of Cybersecurity",
       },
       tags: [
@@ -579,7 +579,7 @@ The cybersecurity landscape is constantly evolving, with cybercriminals developi
       description:
         "How cloud computing technology is transforming the way businesses operate and innovate.",
       image: {
-        src: "1.png",
+        src: "11.jpg",
         alt: "Cloud Computing and Businesses",
       },
       tags: [
@@ -636,7 +636,7 @@ The rise of cloud computing has fundamentally transformed the way businesses ope
       description:
         "Examining how artificial intelligence is reshaping the transportation industry with autonomous vehicles and smart logistics.",
       image: {
-        src: "1.png",
+        src: "12.jpg",
         alt: "AI in Transportation",
       },
       tags: [
@@ -697,7 +697,7 @@ The successful integration of AI in transportation necessitates collaboration be
       description:
         "Exploring the potential of quantum computing to revolutionize fields like cryptography, drug discovery, and optimization.",
       image: {
-        src: "1.png",
+        src: "13.jpg",
         alt: "Quantum Computing",
       },
       tags: [
@@ -755,7 +755,7 @@ While quantum computing is still in its early stages, its potential to revolutio
       description:
         "How augmented reality technology is transforming industries like gaming, retail, and education.",
       image: {
-        src: "1.png",
+        src: "14.jpg",
         alt: "Augmented Reality",
       },
       tags: [
@@ -812,7 +812,7 @@ As AR technology matures and hardware becomes more affordable, we can expect wid
       description:
         "Examining how big data analytics is being used to improve patient care, disease prevention, and medical research.",
       image: {
-        src: "1.png",
+        src: "15.jpg",
         alt: "Big Data in Healthcare",
       },
       tags: [
@@ -874,7 +874,7 @@ The successful implementation of big data in healthcare necessitates collaborati
       description:
         "How the Internet of Things (IoT) is revolutionizing urban planning and infrastructure.",
       image: {
-        src: "1.png",
+        src: "16.jpg",
         alt: "IoT and Smart Cities",
       },
       tags: [
@@ -942,7 +942,7 @@ Building successful smart cities requires collaboration between various stakehol
       description:
         "Exploring advancements in robotics technology and its impact on industries like manufacturing, healthcare, and agriculture.",
       image: {
-        src: "1.png",
+        src: "17.jpg",
         alt: "Future of Robotics",
       },
       tags: [
@@ -1005,7 +1005,7 @@ The successful integration of robots into society hinges on collaboration:
       description:
         "How advances in biotechnology are transforming medicine, agriculture, and environmental science.",
       image: {
-        src: "1.png",
+        src: "18.jpg",
         alt: "Biotechnology",
       },
       tags: [
@@ -1067,7 +1067,7 @@ Biotechnology encompasses a wide range of techniques:
       description:
         "Exploring how AI technologies are being used to personalize learning experiences and improve educational outcomes.",
       image: {
-        src: "1.png",
+        src: "19.jpg",
         alt: "AI in Education",
       },
       tags: [
