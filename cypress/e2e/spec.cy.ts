@@ -12,4 +12,7 @@ describe("Article List", () => {
   it("should display a list of articles on the sidebar", () => {
     cy.aside()
   });
+  it("should display newsletter",()=>{
+    cy.newsletter()
+  })
 });

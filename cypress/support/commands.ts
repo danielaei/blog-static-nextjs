@@ -34,6 +34,7 @@ declare global {
       tags(tags:JQuery<HTMLElement>): Chainable<void>;
       footer(): Chainable<void>;
       aside(): Chainable<void>;
+      newsletter(): Chainable<void>;
     }
   }
 }

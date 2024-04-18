@@ -19,5 +19,6 @@ import "./article"
 import "./tag"
 import "./footer"
 import "./aside"
+import "./newsletter"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

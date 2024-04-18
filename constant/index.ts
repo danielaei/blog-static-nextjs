@@ -81,10 +81,6 @@ By following these tips and injecting your own unique design expertise, you can 
           name: "Tech",
         },
         {
-          color: "blue",
-          name: "Programming",
-        },
-        {
           color: "pink",
           name: "Frontend",
         },
@@ -139,7 +135,7 @@ Numerous online resources and tutorials cater to aspiring web developers. With d
         },
         {
           color: "blue",
-          name: "Artificial Intelligence",
+          name: "AI",
         },
         {
           color: "pink",
@@ -198,10 +194,6 @@ The successful integration of AI in healthcare relies on collaboration between A
           color: "blue",
           name: "Work",
         },
-        {
-          color: "pink",
-          name: "Productivity",
-        },
       ],
       writer: "Bard (AI Assistant)",
       ui: "V2",
@@ -255,10 +247,6 @@ The rise of remote work doesn't necessarily signal the end of traditional office
         {
           color: "blue",
           name: "Blockchain",
-        },
-        {
-          color: "pink",
-          name: "Cryptocurrency",
         },
       ],
       writer: "Bard (AI Assistant)",
@@ -317,11 +305,7 @@ export const articles2: ArticleProps<"list"> = {
         },
         {
           color: "blue",
-          name: "Cloud Computing",
-        },
-        {
-          color: "pink",
-          name: "Businesses",
+          name: "Cloud",
         },
       ],
       writer: "Bard (AI Assistant)",
@@ -375,11 +359,7 @@ The rise of cloud computing has fundamentally transformed the way businesses ope
         },
         {
           color: "blue",
-          name: "Artificial Intelligence",
-        },
-        {
-          color: "pink",
-          name: "Transportation",
+          name: "AI",
         },
       ],
       writer: "Bard (AI Assistant)",
@@ -437,7 +417,7 @@ The successful integration of AI in transportation necessitates collaboration be
         },
         {
           color: "blue",
-          name: "Quantum Computing",
+          name: "Quantum",
         },
         {
           color: "pink",
@@ -495,10 +475,6 @@ While quantum computing is still in its early stages, its potential to revolutio
           name: "Tech",
         },
         {
-          color: "blue",
-          name: "Augmented Reality",
-        },
-        {
           color: "pink",
           name: "Innovation",
         },
@@ -554,7 +530,7 @@ As AR technology matures and hardware becomes more affordable, we can expect wid
         },
         {
           color: "blue",
-          name: "Big Data",
+          name: "Data",
         },
         {
           color: "pink",
@@ -621,7 +597,7 @@ The successful implementation of big data in healthcare necessitates collaborati
         },
         {
           color: "pink",
-          name: "Urban Planning",
+          name: "Urban",
         },
       ],
       writer: "Bard (AI Assistant)",
@@ -688,10 +664,6 @@ Building successful smart cities requires collaboration between various stakehol
           color: "blue",
           name: "Robotics",
         },
-        {
-          color: "pink",
-          name: "Automation",
-        },
       ],
       writer: "Bard (AI Assistant)",
       ui: "V1",
@@ -752,10 +724,6 @@ The successful integration of robots into society hinges on collaboration:
           color: "blue",
           name: "Biotechnology",
         },
-        {
-          color: "pink",
-          name: "Science",
-        },
       ],
       writer: "Bard (AI Assistant)",
       ui: "V1",
@@ -813,7 +781,7 @@ Biotechnology encompasses a wide range of techniques:
         },
         {
           color: "blue",
-          name: "Artificial Intelligence",
+          name: "AI",
         },
         {
           color: "pink",
@@ -943,7 +911,7 @@ The successful rollout and widespread adoption of 5G depend on collaboration bet
         },
         {
           color: "pink",
-          name: "Artificial Intelligence",
+          name: "Artificial",
         },
       ],
       writer: "Bard (AI Assistant)",
@@ -997,10 +965,6 @@ As AI continues to evolve, its applications in finance will only become more sop
           color: "blue",
           name: "Automation",
         },
-        {
-          color: "pink",
-          name: "Employment",
-        },
       ],
       writer: "Bard (AI Assistant)",
       ui: "V1",
@@ -1050,10 +1014,6 @@ The pace of automation is undeniable, but its impact on jobs doesn't have to be 
         {
           color: "purple",
           name: "Tech",
-        },
-        {
-          color: "blue",
-          name: "Machine Learning",
         },
         {
           color: "pink",
@@ -1110,10 +1070,6 @@ Machine learning is constantly evolving, with advancements in areas like deep le
         {
           color: "purple",
           name: "Tech",
-        },
-        {
-          color: "blue",
-          name: "Cybersecurity",
         },
         {
           color: "pink",

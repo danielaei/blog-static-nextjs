@@ -6,7 +6,6 @@ export default function Page(props: { params: { slug: string } }) {
   const post = articlesAll.data.find(
     (article) => linkGenerator(article.title) == props.params.slug
   );
-  console.log(props,post)
   return <MDXRemote source={post?.content as string} />;
 }
 export async function getStaticPaths() {
