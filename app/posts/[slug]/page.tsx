@@ -10,6 +10,8 @@ export async function generateStaticParams() {
 }
 
 export default function Page({ params }: { params: { slug: string } }) {
-  const post = articlesAll.data.find((article) => linkGenerator(article.title) == params.slug);
+  const post = articlesAll.data.find(
+    (article) => linkGenerator(article.title) == params.slug
+  );
   return <MDXRemote source={post?.content as string} />;
 }

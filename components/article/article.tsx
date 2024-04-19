@@ -19,7 +19,13 @@ export const Article = ({ data }: ArticleProps<'single'>) => {
   return (
     <article className='h-full'>
       <figure className={classes.wrapperOne}>
-        <Image src={`/${data.image.src}`} width={1200} height={1200} alt={data.image.alt} className={classes.image} />
+        <Image
+          src={`/${data.image.src}`}
+          width={1200}
+          height={1200}
+          alt={data.image.alt}
+          className={classes.image}
+        />
         <div className={classes.wrapperTwo}>
           <p className='writer'>
             <span data-cy='writer'>{data.writer}</span>•

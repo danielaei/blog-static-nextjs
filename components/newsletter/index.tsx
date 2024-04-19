@@ -35,8 +35,14 @@ export const Newsletter = () => {
     <div data-cy='newsletter' className='space-y-5 text-center'>
       <p className='text-xs font-semibold text-pink'>Newsletters</p>
       <h3>Stories and interviews</h3>
-      <p>Subscribe to learn about new product features, the latest in technology, solutions, and updates.</p>
-      <form action={formAction} className='flex flex-col items-center justify-center gap-5'>
+      <p>
+        Subscribe to learn about new product features, the latest in technology,
+        solutions, and updates.
+      </p>
+      <form
+        action={formAction}
+        className='flex flex-col items-center justify-center gap-5'
+      >
         <input
           className='rounded-lg px-4 py-2 text-black focus:outline-none mobileS:w-2/3 md:w-1/4'
           type='email'

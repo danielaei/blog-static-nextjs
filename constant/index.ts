@@ -4,7 +4,8 @@ export const articles1: ArticleProps<'list'> = {
   data: [
     {
       title: 'UX review presentations',
-      description: 'How do you create compelling presentations that wow your colleagues and impress your managers?',
+      description:
+        'How do you create compelling presentations that wow your colleagues and impress your managers?',
       image: {
         src: '1.jpg',
         alt: 'UX review presentations',
@@ -68,7 +69,8 @@ By following these tips and injecting your own unique design expertise, you can 
     },
     {
       title: 'Introduction to Web Development',
-      description: 'Learn the basics of web development including HTML, CSS, and JavaScript.',
+      description:
+        'Learn the basics of web development including HTML, CSS, and JavaScript.',
       image: {
         src: '2.jpg',
         alt: 'Web Development',
@@ -120,7 +122,8 @@ Numerous online resources and tutorials cater to aspiring web developers. With d
     },
     {
       title: 'The Future of AI in Healthcare',
-      description: 'Exploring the potential impact of artificial intelligence in the healthcare industry.',
+      description:
+        'Exploring the potential impact of artificial intelligence in the healthcare industry.',
       image: {
         src: '3.jpg',
         alt: 'AI in Healthcare',
@@ -176,7 +179,8 @@ The successful integration of AI in healthcare relies on collaboration between A
     },
     {
       title: 'The Rise of Remote Work',
-      description: 'Examining the growing trend of remote work and its implications for businesses and employees.',
+      description:
+        'Examining the growing trend of remote work and its implications for businesses and employees.',
       image: {
         src: '4.jpg',
         alt: 'Remote Work',
@@ -229,7 +233,8 @@ The rise of remote work doesn't necessarily signal the end of traditional office
     },
     {
       title: 'Blockchain and Cryptocurrency Explained',
-      description: "A beginner's guide to understanding blockchain technology and cryptocurrencies like Bitcoin.",
+      description:
+        "A beginner's guide to understanding blockchain technology and cryptocurrencies like Bitcoin.",
       image: {
         src: '5.jpg',
         alt: 'Blockchain and Cryptocurrency',
@@ -287,7 +292,8 @@ export const articles2: ArticleProps<'list'> = {
   data: [
     {
       title: 'The Impact of Cloud Computing on Businesses',
-      description: 'How cloud computing technology is transforming the way businesses operate and innovate.',
+      description:
+        'How cloud computing technology is transforming the way businesses operate and innovate.',
       image: {
         src: '11.jpg',
         alt: 'Cloud Computing and Businesses',
@@ -457,7 +463,8 @@ While quantum computing is still in its early stages, its potential to revolutio
     },
     {
       title: 'The Rise of Augmented Reality',
-      description: 'How augmented reality technology is transforming industries like gaming, retail, and education.',
+      description:
+        'How augmented reality technology is transforming industries like gaming, retail, and education.',
       image: {
         src: '14.jpg',
         alt: 'Augmented Reality',
@@ -573,7 +580,8 @@ The successful implementation of big data in healthcare necessitates collaborati
     },
     {
       title: 'The Impact of IoT on Smart Cities',
-      description: 'How the Internet of Things (IoT) is revolutionizing urban planning and infrastructure.',
+      description:
+        'How the Internet of Things (IoT) is revolutionizing urban planning and infrastructure.',
       image: {
         src: '16.jpg',
         alt: 'IoT and Smart Cities',
@@ -701,7 +709,8 @@ The successful integration of robots into society hinges on collaboration:
     },
     {
       title: 'The Rise of Biotechnology',
-      description: 'How advances in biotechnology are transforming medicine, agriculture, and environmental science.',
+      description:
+        'How advances in biotechnology are transforming medicine, agriculture, and environmental science.',
       image: {
         src: '18.jpg',
         alt: 'Biotechnology',
@@ -832,7 +841,8 @@ export const articles3: ArticleProps<'list'> = {
   data: [
     {
       title: 'The Impact of 5G Technology',
-      description: 'Exploring the potential benefits and challenges of 5G technology in various industries.',
+      description:
+        'Exploring the potential benefits and challenges of 5G technology in various industries.',
       image: {
         src: '6.jpg',
         alt: '5G Technology',
@@ -884,7 +894,8 @@ The successful rollout and widespread adoption of 5G depend on collaboration bet
     },
     {
       title: 'Artificial Intelligence in Finance',
-      description: 'How AI is revolutionizing the finance industry with automation and predictive analytics.',
+      description:
+        'How AI is revolutionizing the finance industry with automation and predictive analytics.',
       image: {
         src: '7.jpg',
         alt: 'AI in Finance',
@@ -939,7 +950,8 @@ As AI continues to evolve, its applications in finance will only become more sop
     },
     {
       title: 'The Future of Work: Automation and Job Displacement',
-      description: 'Examining the potential impact of automation on the future of work and employment.',
+      description:
+        'Examining the potential impact of automation on the future of work and employment.',
       image: {
         src: '8.jpg',
         alt: 'Automation and Work',
@@ -992,7 +1004,8 @@ The pace of automation is undeniable, but its impact on jobs doesn't have to be 
     },
     {
       title: 'The Role of Machine Learning in Data Science',
-      description: 'Exploring how machine learning algorithms are used to analyze and interpret large datasets.',
+      description:
+        'Exploring how machine learning algorithms are used to analyze and interpret large datasets.',
       image: {
         src: '9.jpg',
         alt: 'Machine Learning and Data Science',
@@ -1047,7 +1060,8 @@ Machine learning is constantly evolving, with advancements in areas like deep le
     },
     {
       title: 'The Evolution of Cybersecurity',
-      description: 'From firewalls to AI-powered threat detection, tracing the history and future of cybersecurity.',
+      description:
+        'From firewalls to AI-powered threat detection, tracing the history and future of cybersecurity.',
       image: {
         src: '10.jpg',
         alt: 'Evolution of Cybersecurity',

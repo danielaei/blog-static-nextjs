@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className='dark' lang='en'>
-      <body className={`container min-h-dvh space-y-5 py-5 dark:bg-dark-light dark:text-white ${inter.className}`}>
+      <body
+        className={`container min-h-dvh space-y-5 py-5 dark:bg-dark-light dark:text-white ${inter.className}`}
+      >
         <Navbar />
         <main className='space-y-5'>{children}</main>
         <Footer />

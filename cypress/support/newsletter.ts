@@ -32,7 +32,9 @@ Cypress.Commands.add('newsletter', () => {
       .should('have.text', 'Thank you for subscribing to our newsletter! 🎉')
       .and('have.class', 'text-green-600 peer');
 
-    cy.get('p').last().should('have.text', 'We care about your data in our privacy policy');
+    cy.get('p')
+      .last()
+      .should('have.text', 'We care about your data in our privacy policy');
     cy.get('a')
       .invoke('attr', 'href')
       .then(function ($link) {
