@@ -1,31 +1,30 @@
-import { ArticleProps } from "@/types";
-import { FooterItemProps } from "@/types";
-export const articles1: ArticleProps<"list"> = {
+import { ArticleProps } from '@/types';
+import { FooterItemProps } from '@/types';
+export const articles1: ArticleProps<'list'> = {
   data: [
     {
-      title: "UX review presentations",
-      description:
-        "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      title: 'UX review presentations',
+      description: 'How do you create compelling presentations that wow your colleagues and impress your managers?',
       image: {
-        src: "1.jpg",
-        alt: "UX review presentations",
+        src: '1.jpg',
+        alt: 'UX review presentations',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Sport",
+          color: 'blue',
+          name: 'Sport',
         },
         {
-          color: "pink",
-          name: "Game",
+          color: 'pink',
+          name: 'Game',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V2",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V2',
       date: new Date(),
       content: `
     ## UX Review Presentations: Captivate Your Audience and Secure Approval
@@ -68,25 +67,24 @@ By following these tips and injecting your own unique design expertise, you can 
     `,
     },
     {
-      title: "Introduction to Web Development",
-      description:
-        "Learn the basics of web development including HTML, CSS, and JavaScript.",
+      title: 'Introduction to Web Development',
+      description: 'Learn the basics of web development including HTML, CSS, and JavaScript.',
       image: {
-        src: "2.jpg",
-        alt: "Web Development",
+        src: '2.jpg',
+        alt: 'Web Development',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "pink",
-          name: "Frontend",
+          color: 'pink',
+          name: 'Frontend',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V2",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V2',
       date: new Date(),
       content: `
     ## Introduction to Web Development: Building Blocks of the Digital World
@@ -121,29 +119,28 @@ Numerous online resources and tutorials cater to aspiring web developers. With d
     `,
     },
     {
-      title: "The Future of AI in Healthcare",
-      description:
-        "Exploring the potential impact of artificial intelligence in the healthcare industry.",
+      title: 'The Future of AI in Healthcare',
+      description: 'Exploring the potential impact of artificial intelligence in the healthcare industry.',
       image: {
-        src: "3.jpg",
-        alt: "AI in Healthcare",
+        src: '3.jpg',
+        alt: 'AI in Healthcare',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "AI",
+          color: 'blue',
+          name: 'AI',
         },
         {
-          color: "pink",
-          name: "Healthcare",
+          color: 'pink',
+          name: 'Healthcare',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V2",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V2',
       date: new Date(),
       content: `
     ## The Future of AI in Healthcare: Revolutionizing Diagnosis, Treatment, and Care
@@ -178,25 +175,24 @@ The successful integration of AI in healthcare relies on collaboration between A
     `,
     },
     {
-      title: "The Rise of Remote Work",
-      description:
-        "Examining the growing trend of remote work and its implications for businesses and employees.",
+      title: 'The Rise of Remote Work',
+      description: 'Examining the growing trend of remote work and its implications for businesses and employees.',
       image: {
-        src: "4.jpg",
-        alt: "Remote Work",
+        src: '4.jpg',
+        alt: 'Remote Work',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Work",
+          color: 'blue',
+          name: 'Work',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V2",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V2',
       date: new Date(),
       content: `
     ## The Rise of Remote Work: Reshaping the Future of Employment
@@ -232,25 +228,24 @@ The rise of remote work doesn't necessarily signal the end of traditional office
     `,
     },
     {
-      title: "Blockchain and Cryptocurrency Explained",
-      description:
-        "A beginner's guide to understanding blockchain technology and cryptocurrencies like Bitcoin.",
+      title: 'Blockchain and Cryptocurrency Explained',
+      description: "A beginner's guide to understanding blockchain technology and cryptocurrencies like Bitcoin.",
       image: {
-        src: "5.jpg",
-        alt: "Blockchain and Cryptocurrency",
+        src: '5.jpg',
+        alt: 'Blockchain and Cryptocurrency',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Blockchain",
+          color: 'blue',
+          name: 'Blockchain',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V2",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V2',
       date: new Date(),
       content: `
     ## Blockchain and Cryptocurrency Explained: Demystifying the Digital Revolution
@@ -288,28 +283,27 @@ While still in its early stages, blockchain technology holds immense potential b
     },
   ],
 };
-export const articles2: ArticleProps<"list"> = {
+export const articles2: ArticleProps<'list'> = {
   data: [
     {
-      title: "The Impact of Cloud Computing on Businesses",
-      description:
-        "How cloud computing technology is transforming the way businesses operate and innovate.",
+      title: 'The Impact of Cloud Computing on Businesses',
+      description: 'How cloud computing technology is transforming the way businesses operate and innovate.',
       image: {
-        src: "11.jpg",
-        alt: "Cloud Computing and Businesses",
+        src: '11.jpg',
+        alt: 'Cloud Computing and Businesses',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Cloud",
+          color: 'blue',
+          name: 'Cloud',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Impact of Cloud Computing on Businesses: Redefining Efficiency, Scalability, and Innovation
@@ -345,25 +339,25 @@ The rise of cloud computing has fundamentally transformed the way businesses ope
       `,
     },
     {
-      title: "The Future of AI in Transportation",
+      title: 'The Future of AI in Transportation',
       description:
-        "Examining how artificial intelligence is reshaping the transportation industry with autonomous vehicles and smart logistics.",
+        'Examining how artificial intelligence is reshaping the transportation industry with autonomous vehicles and smart logistics.',
       image: {
-        src: "12.jpg",
-        alt: "AI in Transportation",
+        src: '12.jpg',
+        alt: 'AI in Transportation',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "AI",
+          color: 'blue',
+          name: 'AI',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Future of AI in Transportation: Steering Towards Autonomy and Efficiency
@@ -403,29 +397,29 @@ The successful integration of AI in transportation necessitates collaboration be
       `,
     },
     {
-      title: "The Promise of Quantum Computing",
+      title: 'The Promise of Quantum Computing',
       description:
-        "Exploring the potential of quantum computing to revolutionize fields like cryptography, drug discovery, and optimization.",
+        'Exploring the potential of quantum computing to revolutionize fields like cryptography, drug discovery, and optimization.',
       image: {
-        src: "13.jpg",
-        alt: "Quantum Computing",
+        src: '13.jpg',
+        alt: 'Quantum Computing',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Quantum",
+          color: 'blue',
+          name: 'Quantum',
         },
         {
-          color: "pink",
-          name: "Science",
+          color: 'pink',
+          name: 'Science',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Promise of Quantum Computing: Unlocking a New Era of Computational Power
@@ -462,25 +456,24 @@ While quantum computing is still in its early stages, its potential to revolutio
       `,
     },
     {
-      title: "The Rise of Augmented Reality",
-      description:
-        "How augmented reality technology is transforming industries like gaming, retail, and education.",
+      title: 'The Rise of Augmented Reality',
+      description: 'How augmented reality technology is transforming industries like gaming, retail, and education.',
       image: {
-        src: "14.jpg",
-        alt: "Augmented Reality",
+        src: '14.jpg',
+        alt: 'Augmented Reality',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "pink",
-          name: "Innovation",
+          color: 'pink',
+          name: 'Innovation',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Rise of Augmented Reality: Blurring the Lines Between Reality and the Digital World
@@ -516,29 +509,29 @@ As AR technology matures and hardware becomes more affordable, we can expect wid
       `,
     },
     {
-      title: "The Role of Big Data in Healthcare",
+      title: 'The Role of Big Data in Healthcare',
       description:
-        "Examining how big data analytics is being used to improve patient care, disease prevention, and medical research.",
+        'Examining how big data analytics is being used to improve patient care, disease prevention, and medical research.',
       image: {
-        src: "15.jpg",
-        alt: "Big Data in Healthcare",
+        src: '15.jpg',
+        alt: 'Big Data in Healthcare',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Data",
+          color: 'blue',
+          name: 'Data',
         },
         {
-          color: "pink",
-          name: "Healthcare",
+          color: 'pink',
+          name: 'Healthcare',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Role of Big Data in Healthcare: Transforming Medicine with a Data-Driven Approach
@@ -579,29 +572,28 @@ The successful implementation of big data in healthcare necessitates collaborati
       `,
     },
     {
-      title: "The Impact of IoT on Smart Cities",
-      description:
-        "How the Internet of Things (IoT) is revolutionizing urban planning and infrastructure.",
+      title: 'The Impact of IoT on Smart Cities',
+      description: 'How the Internet of Things (IoT) is revolutionizing urban planning and infrastructure.',
       image: {
-        src: "16.jpg",
-        alt: "IoT and Smart Cities",
+        src: '16.jpg',
+        alt: 'IoT and Smart Cities',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "IoT",
+          color: 'blue',
+          name: 'IoT',
         },
         {
-          color: "pink",
-          name: "Urban",
+          color: 'pink',
+          name: 'Urban',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Impact of IoT on Smart Cities: Building a Networked Future
@@ -648,25 +640,25 @@ Building successful smart cities requires collaboration between various stakehol
       `,
     },
     {
-      title: "The Future of Robotics",
+      title: 'The Future of Robotics',
       description:
-        "Exploring advancements in robotics technology and its impact on industries like manufacturing, healthcare, and agriculture.",
+        'Exploring advancements in robotics technology and its impact on industries like manufacturing, healthcare, and agriculture.',
       image: {
-        src: "17.jpg",
-        alt: "Future of Robotics",
+        src: '17.jpg',
+        alt: 'Future of Robotics',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Robotics",
+          color: 'blue',
+          name: 'Robotics',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Future of Robotics: Transforming Industries and Redefining Our World
@@ -708,25 +700,24 @@ The successful integration of robots into society hinges on collaboration:
       `,
     },
     {
-      title: "The Rise of Biotechnology",
-      description:
-        "How advances in biotechnology are transforming medicine, agriculture, and environmental science.",
+      title: 'The Rise of Biotechnology',
+      description: 'How advances in biotechnology are transforming medicine, agriculture, and environmental science.',
       image: {
-        src: "18.jpg",
-        alt: "Biotechnology",
+        src: '18.jpg',
+        alt: 'Biotechnology',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Biotechnology",
+          color: 'blue',
+          name: 'Biotechnology',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Rise of Biotechnology: Revolutionizing Medicine, Agriculture, and Our Environment
@@ -767,29 +758,29 @@ Biotechnology encompasses a wide range of techniques:
       `,
     },
     {
-      title: "The Role of Artificial Intelligence in Education",
+      title: 'The Role of Artificial Intelligence in Education',
       description:
-        "Exploring how AI technologies are being used to personalize learning experiences and improve educational outcomes.",
+        'Exploring how AI technologies are being used to personalize learning experiences and improve educational outcomes.',
       image: {
-        src: "19.jpg",
-        alt: "AI in Education",
+        src: '19.jpg',
+        alt: 'AI in Education',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "AI",
+          color: 'blue',
+          name: 'AI',
         },
         {
-          color: "pink",
-          name: "Education",
+          color: 'pink',
+          name: 'Education',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
       ## The Role of Artificial Intelligence in Education: Personalized Learning and Beyond
@@ -837,32 +828,31 @@ The successful implementation of AI in education necessitates a collaborative ap
     },
   ],
 };
-export const articles3: ArticleProps<"list"> = {
+export const articles3: ArticleProps<'list'> = {
   data: [
     {
-      title: "The Impact of 5G Technology",
-      description:
-        "Exploring the potential benefits and challenges of 5G technology in various industries.",
+      title: 'The Impact of 5G Technology',
+      description: 'Exploring the potential benefits and challenges of 5G technology in various industries.',
       image: {
-        src: "6.jpg",
-        alt: "5G Technology",
+        src: '6.jpg',
+        alt: '5G Technology',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "5G",
+          color: 'blue',
+          name: '5G',
         },
         {
-          color: "pink",
-          name: "Internet",
+          color: 'pink',
+          name: 'Internet',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
     ## The Impact of 5G Technology: Ushering in a New Era of Connectivity
@@ -893,29 +883,28 @@ The successful rollout and widespread adoption of 5G depend on collaboration bet
     `,
     },
     {
-      title: "Artificial Intelligence in Finance",
-      description:
-        "How AI is revolutionizing the finance industry with automation and predictive analytics.",
+      title: 'Artificial Intelligence in Finance',
+      description: 'How AI is revolutionizing the finance industry with automation and predictive analytics.',
       image: {
-        src: "7.jpg",
-        alt: "AI in Finance",
+        src: '7.jpg',
+        alt: 'AI in Finance',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Finance",
+          color: 'blue',
+          name: 'Finance',
         },
         {
-          color: "pink",
-          name: "Artificial",
+          color: 'pink',
+          name: 'Artificial',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
     ## Artificial Intelligence in Finance: Revolutionizing the Way We Manage Money
@@ -949,25 +938,24 @@ As AI continues to evolve, its applications in finance will only become more sop
     `,
     },
     {
-      title: "The Future of Work: Automation and Job Displacement",
-      description:
-        "Examining the potential impact of automation on the future of work and employment.",
+      title: 'The Future of Work: Automation and Job Displacement',
+      description: 'Examining the potential impact of automation on the future of work and employment.',
       image: {
-        src: "8.jpg",
-        alt: "Automation and Work",
+        src: '8.jpg',
+        alt: 'Automation and Work',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "blue",
-          name: "Automation",
+          color: 'blue',
+          name: 'Automation',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
     ## The Future of Work: Automation and Job Displacement - Navigating the Transformation
@@ -1003,25 +991,24 @@ The pace of automation is undeniable, but its impact on jobs doesn't have to be 
     `,
     },
     {
-      title: "The Role of Machine Learning in Data Science",
-      description:
-        "Exploring how machine learning algorithms are used to analyze and interpret large datasets.",
+      title: 'The Role of Machine Learning in Data Science',
+      description: 'Exploring how machine learning algorithms are used to analyze and interpret large datasets.',
       image: {
-        src: "9.jpg",
-        alt: "Machine Learning and Data Science",
+        src: '9.jpg',
+        alt: 'Machine Learning and Data Science',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "pink",
-          name: "Data Science",
+          color: 'pink',
+          name: 'Data Science',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
     ## The Role of Machine Learning in Data Science: Unveiling Patterns and Making Predictions
@@ -1059,25 +1046,24 @@ Machine learning is constantly evolving, with advancements in areas like deep le
     `,
     },
     {
-      title: "The Evolution of Cybersecurity",
-      description:
-        "From firewalls to AI-powered threat detection, tracing the history and future of cybersecurity.",
+      title: 'The Evolution of Cybersecurity',
+      description: 'From firewalls to AI-powered threat detection, tracing the history and future of cybersecurity.',
       image: {
-        src: "10.jpg",
-        alt: "Evolution of Cybersecurity",
+        src: '10.jpg',
+        alt: 'Evolution of Cybersecurity',
       },
       tags: [
         {
-          color: "purple",
-          name: "Tech",
+          color: 'purple',
+          name: 'Tech',
         },
         {
-          color: "pink",
-          name: "Internet",
+          color: 'pink',
+          name: 'Internet',
         },
       ],
-      writer: "Bard (AI Assistant)",
-      ui: "V1",
+      writer: 'Bard (AI Assistant)',
+      ui: 'V1',
       date: new Date(),
       content: `
     ## The Evolution of Cybersecurity: A Constant Battle in a Digital Age
@@ -1115,38 +1101,38 @@ The cybersecurity landscape is constantly evolving, with cybercriminals developi
     },
   ],
 };
-export const articlesAll:ArticleProps<"list"> = {
-  data: [...articles1.data,...articles2.data,...articles3.data]
-}
+export const articlesAll: ArticleProps<'list'> = {
+  data: [...articles1.data, ...articles2.data, ...articles3.data],
+};
 export const footerItems: FooterItemProps[] = [
   {
-    name: "Linkedin",
-    link: "www.linkedin.com/in/danielaghababaei",
+    name: 'Linkedin',
+    link: 'www.linkedin.com/in/danielaghababaei',
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/danieloaei",
+    name: 'Twitter',
+    link: 'https://twitter.com/danieloaei',
   },
   {
-    name: "Email",
-    link: "mailto:daniel.aghababaei@gmail.com",
+    name: 'Email',
+    link: 'mailto:daniel.aghababaei@gmail.com',
   },
   {
-    name: "RSS Feeds",
-    link: "/rss",
+    name: 'RSS Feeds',
+    link: '/rss',
   },
 ];
 export const navbarItems = [
   {
-    name: "Blog",
-    link: "/",
+    name: 'Blog',
+    link: '/',
   },
   {
-    name: "About",
-    link: "/about",
+    name: 'About',
+    link: '/about',
   },
   {
-    name: "Newsletter",
-    link: "/#Newsletter",
+    name: 'Newsletter',
+    link: '/#Newsletter',
   },
 ];

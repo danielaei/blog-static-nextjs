@@ -1,8 +1,8 @@
-import { TagProps } from "@/types";
+import { TagProps } from '@/types';
 
-export const Tags = ({ data }: TagProps<"list">) => {
+export const Tags = ({ data }: TagProps<'list'>) => {
   return (
-    <ul data-cy="tags" className="flex gap-5">
+    <ul data-cy='tags' className='flex gap-5'>
       {data.map((item, index) => (
         <li key={index} className={`tag-${item.color}`}>
           {item.name}

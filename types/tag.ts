@@ -1,8 +1,8 @@
 // Tag
 enum Colors {
-  pink = "pink",
-  blue = "blue",
-  purple = "purple",
+  pink = 'pink',
+  blue = 'blue',
+  purple = 'purple',
 }
 type ColorsKeys = keyof typeof Colors;
 interface Tag {

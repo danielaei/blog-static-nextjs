@@ -1,4 +1,3 @@
-export * from './article'
-export * from './tag'
-export * from './shared'
-
+export * from './article';
+export * from './tag';
+export * from './shared';

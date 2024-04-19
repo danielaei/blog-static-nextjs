@@ -1,19 +1,18 @@
-import { articlesAll } from "@/constant";
-import { linkGenerator } from "@/utils/linkGenerator";
-import { Feed } from "feed";
+import { articlesAll } from '@/constant';
+import { linkGenerator } from '@/utils/linkGenerator';
+import { Feed } from 'feed';
 export async function GET() {
   const URL = `${process.env.URL}/posts/`;
   const feed = new Feed({
-    title: "Blog Article Feed",
-    description:
-      "This is a website created by Next.js, MDX(Markdown), Tailwind",
+    title: 'Blog Article Feed',
+    description: 'This is a website created by Next.js, MDX(Markdown), Tailwind',
     id: `${URL}`,
     link: `${URL}`,
-    language: "en",
-    copyright: "All rights reserved 2024, Daniel Agha Babaei",
+    language: 'en',
+    copyright: 'All rights reserved 2024, Daniel Agha Babaei',
     author: {
-      name: "Bard (AI Assistant)",
-      link: "https://gemini.google.com",
+      name: 'Bard (AI Assistant)',
+      link: 'https://gemini.google.com',
     },
   });
   articlesAll.data.forEach((article) => {
@@ -31,7 +30,7 @@ export async function GET() {
       author: [
         {
           name: article.writer,
-          link: "https://gemini.google.com",
+          link: 'https://gemini.google.com',
         },
       ],
       date: article.date,
@@ -39,6 +38,6 @@ export async function GET() {
   });
   return new Response(feed.rss2(), {
     status: 200,
-    headers: { "Content-Type": "text/xml" },
+    headers: { 'Content-Type': 'text/xml' },
   });
 }

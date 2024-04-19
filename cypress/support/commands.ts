@@ -29,9 +29,9 @@ export {};
 declare global {
   namespace Cypress {
     interface Chainable {
-      article(article:JQuery<HTMLElement>): Chainable<void>;
+      article(article: JQuery<HTMLElement>): Chainable<void>;
       articles(): Chainable<void>;
-      tags(tags:JQuery<HTMLElement>): Chainable<void>;
+      tags(tags: JQuery<HTMLElement>): Chainable<void>;
       footer(): Chainable<void>;
       aside(): Chainable<void>;
       newsletter(): Chainable<void>;

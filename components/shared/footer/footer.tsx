@@ -1,11 +1,11 @@
-import { footerItems } from "@/constant";
-import Link from "next/link";
-import React from "react";
+import { footerItems } from '@/constant';
+import Link from 'next/link';
+import React from 'react';
 
 export const Footer = () => {
   return (
     <footer>
-      <ul className="flex gap-5">
+      <ul className='flex gap-5'>
         <li>©{new Date().getFullYear()}</li>
         {footerItems.map((v, i) => (
           <li key={i}>
