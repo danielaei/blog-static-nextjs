@@ -1,7 +1,3 @@
-.git
-.svn
-.hg
+/public/**/*
 node_modules
-.svn
-.hg
-cypress
+.next
