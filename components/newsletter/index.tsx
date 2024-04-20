@@ -32,7 +32,7 @@ export const Newsletter = () => {
   const [state, formAction] = useFormState(newsletterAction, { errors: [], msg: '' });
   const emailErrors = findErrors('email', state.errors);
   return (
-    <div data-cy='newsletter' className='space-y-5 text-center'>
+    <div id="newsletter" data-cy='newsletter' className='space-y-5 text-center'>
       <p className='text-xs font-semibold text-pink'>Newsletters</p>
       <h3>Stories and interviews</h3>
       <p>

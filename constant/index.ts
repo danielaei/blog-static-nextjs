@@ -1142,11 +1142,15 @@ export const navbarItems = [
     link: '/',
   },
   {
+    name: 'Posts',
+    link: '/posts',
+  },
+  {
     name: 'About',
     link: '/about',
   },
   {
     name: 'Newsletter',
-    link: '/#Newsletter',
+    link: '#newsletter',
   },
 ];

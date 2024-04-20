@@ -4,3 +4,4 @@ export * from './footer/footer';
 export * from './other/titleSection';
 export * from './sidebar';
 export * from './other/submitButton';
+export * from './other/linkCustom'
