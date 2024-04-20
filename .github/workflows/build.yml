@@ -17,3 +17,12 @@ jobs:
           run: npm install    
         - name: Run Linter
           run: npm run lint
+        - name: Run Prettier
+          run: npm run format:fix
+        - name: Cypress run
+          uses: cypress-io/github-action@v6
+          with:
+            browser: chrome
+            component: true
+            build: npm run build
+            start: npm start  
