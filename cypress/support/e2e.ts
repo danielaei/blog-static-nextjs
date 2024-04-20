@@ -20,5 +20,6 @@ import './tag';
 import './footer';
 import './aside';
 import './newsletter';
+import "./navbar"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

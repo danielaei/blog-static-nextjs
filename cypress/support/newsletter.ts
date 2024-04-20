@@ -15,7 +15,7 @@ Cypress.Commands.add('newsletter', () => {
     cy.get('@btnSubmit').should('be.disabled');
     cy.get("[data-cy='error']")
       .should('have.text', 'Please provide a valid email, Value is too short')
-      .and('have.class', 'text-red-600 peer');
+      .and('have.class', 'peer text-red-600');
 
     cy.get('input[placeholder*="Enter your email"]');
 
@@ -23,14 +23,14 @@ Cypress.Commands.add('newsletter', () => {
     cy.get('@btnSubmit').click();
     cy.get("[data-cy='error']")
       .should('have.text', 'Please provide a valid email')
-      .and('have.class', 'text-red-600 peer');
+      .and('have.class', 'peer text-red-600');
     cy.get('@inputNews').clear();
 
     cy.get('@inputNews').type('daniel.aghababaei@gmail.com');
     cy.get('@btnSubmit').click();
     cy.get("[data-cy='success']")
       .should('have.text', 'Thank you for subscribing to our newsletter! 🎉')
-      .and('have.class', 'text-green-600 peer');
+      .and('have.class', 'peer text-green-600');
 
     cy.get('p')
       .last()

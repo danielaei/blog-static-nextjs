@@ -35,6 +35,7 @@ declare global {
       footer(): Chainable<void>;
       aside(): Chainable<void>;
       newsletter(): Chainable<void>;
+      navbar(): Chainable<void>;
     }
   }
 }

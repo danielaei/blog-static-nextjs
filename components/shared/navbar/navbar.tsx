@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <header>
       <nav className='flex items-center justify-between'>
-        <Link href='/'>
+        <Link data-cy='logo' href='/'>
           <Image
             className='rounded-full bg-white'
             src='/logo.png'
