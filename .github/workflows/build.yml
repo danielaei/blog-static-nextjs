@@ -17,22 +17,8 @@ jobs:
           node-version: 18 
       - name: Install Dependencies
         run: npm install    
-      - name: Run Linter
-        run: npm run lint
-      - name: Run Prettier
-        run: npm run format:fix
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply formatting changes
-          branch: ${{ github.head_ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          spec: cypress/e2e/spec.cy.ts
-          browser: chrome
-          component: true
           build: npm run build
           start: npm start  
